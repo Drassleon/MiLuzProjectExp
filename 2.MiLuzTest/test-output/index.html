@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-MiLuzTestSuite">
+              <span class="suite-name border-failed">MiLuzTestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-MiLuzTestSuite">
+                    <span>D:\STS\MiLuzTestJava\src\test\java\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-MiLuzTestSuite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-MiLuzTestSuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-MiLuzTestSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-MiLuzTestSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-MiLuzTestSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-MiLuzTestSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods, 4 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-MiLuzTestSuite" class="hide-methods failed suite-MiLuzTestSuite"> (hide)</a> <!-- hide-methods failed suite-MiLuzTestSuite -->
+                      <a href="#" panel-name="suite-MiLuzTestSuite" class="show-methods failed suite-MiLuzTestSuite"> (show)</a> <!-- show-methods failed suite-MiLuzTestSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-MiLuzTestSuite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MiLuzTestSuite" title="pe.com.test.system.testCase.MantenimientoProvider" hash-for-method="a_insertarCategoria(Registrar Proveedor - Flujo Alternativo, http://localhost:8080/login, marcelo, 123456, , 987654321, ...)">a_insertarCategoria(Registrar Proveedor - Flujo Alternativo, http://localhost:8080/login, marcelo, 123456, , 987654321, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MiLuzTestSuite" title="pe.com.test.system.testCase.MantenimientoProvider" hash-for-method="a_insertarCategoria(Registrar Proveedor - Flujo Básico, http://localhost:8080/login, marcelo, 123456, Samsung, 987654321...)">a_insertarCategoria(Registrar Proveedor - Flujo Básico, http://localhost:8080/login, marcelo, 123456, Samsung, 987654321...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MiLuzTestSuite" title="pe.com.test.system.testCase.MantenimientoProvider" hash-for-method="b_editarCategoria(Actualizar Proveedor - Flujo Básico, http://localhost:8080/login, marcelo, 123456, CocaCola, Proveed...)">b_editarCategoria(Actualizar Proveedor - Flujo Básico, http://localhost:8080/login, marcelo, 123456, CocaCola, Proveed...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MiLuzTestSuite" title="pe.com.test.system.testCase.MantenimientoProvider" hash-for-method="c_eliminarCategoria(Eliminar Proveedor - Flujo Básico, http://localhost:8080/login, marcelo, 123456, Samsung, Proveedor ...)">c_eliminarCategoria(Eliminar Proveedor - Flujo Básico, http://localhost:8080/login, marcelo, 123456, Samsung, Proveedor ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-MiLuzTestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-MiLuzTestSuite" class="panel MiLuzTestSuite">
+          <div class="suite-MiLuzTestSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">pe.com.test.system.testCase.MantenimientoProvider</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="a_insertarCategoria(Registrar Proveedor - Flujo Alternativo, http://localhost:8080/login, marcelo, 123456, , 987654321, ...)">
+                  </a> <!-- a_insertarCategoria(Registrar Proveedor - Flujo Alternativo, http://localhost:8080/login, marcelo, 123456, , 987654321, ...) -->
+                  <span class="method-name">a_insertarCategoria</span>
+                  <span class="parameters">(Registrar Proveedor - Flujo Alternativo, http://localhost:8080/login, marcelo, 123456, , 987654321, El nombre de proveedor no puede ser vacío, http://localhost:81/testlink/lib/api/xmlrpc/v1/xmlrpc.php, c2ba2f17a374eb08746d1a30bd837bf7, 14, 1, 17, 1, Build 01)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Error: chrome not reachable
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;LAPTOP-4QGIS7L0&apos;, ip: &apos;192.168.48.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\alvar\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54792}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: 981a677e20b2fc7a2ca67b2df6e5e734
+	at pe.com.test.system.testCase.MantenimientoProvider.a_insertarCategoria(MantenimientoProvider.java:102)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="a_insertarCategoria(Registrar Proveedor - Flujo Básico, http://localhost:8080/login, marcelo, 123456, Samsung, 987654321...)">
+                  </a> <!-- a_insertarCategoria(Registrar Proveedor - Flujo Básico, http://localhost:8080/login, marcelo, 123456, Samsung, 987654321...) -->
+                  <span class="method-name">a_insertarCategoria</span>
+                  <span class="parameters">(Registrar Proveedor - Flujo Básico, http://localhost:8080/login, marcelo, 123456, Samsung, 987654321, Proveedor creado con éxito!, http://localhost:81/testlink/lib/api/xmlrpc/v1/xmlrpc.php, c2ba2f17a374eb08746d1a30bd837bf7, 14, 1, 17, 1, Build 01)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Error: chrome not reachable
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;LAPTOP-4QGIS7L0&apos;, ip: &apos;192.168.48.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\alvar\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54792}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: 981a677e20b2fc7a2ca67b2df6e5e734
+*** Element info: {Using=xpath, value=/html/body/div/div/div[2]/form/div[5]/div/input}
+	at pe.com.test.system.testCase.MantenimientoProvider.a_insertarCategoria(MantenimientoProvider.java:102)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="b_editarCategoria(Actualizar Proveedor - Flujo Básico, http://localhost:8080/login, marcelo, 123456, CocaCola, Proveed...)">
+                  </a> <!-- b_editarCategoria(Actualizar Proveedor - Flujo Básico, http://localhost:8080/login, marcelo, 123456, CocaCola, Proveed...) -->
+                  <span class="method-name">b_editarCategoria</span>
+                  <span class="parameters">(Actualizar Proveedor - Flujo Básico, http://localhost:8080/login, marcelo, 123456, CocaCola, Proveedor editado con éxito!, http://localhost:81/testlink/lib/api/xmlrpc/v1/xmlrpc.php, c2ba2f17a374eb08746d1a30bd837bf7, 14, 1, 17, 1, Build 01)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Error: chrome not reachable
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;LAPTOP-4QGIS7L0&apos;, ip: &apos;192.168.48.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\alvar\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54792}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: 981a677e20b2fc7a2ca67b2df6e5e734
+	at pe.com.test.system.testCase.MantenimientoProvider.b_editarCategoria(MantenimientoProvider.java:149)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="c_eliminarCategoria(Eliminar Proveedor - Flujo Básico, http://localhost:8080/login, marcelo, 123456, Samsung, Proveedor ...)">
+                  </a> <!-- c_eliminarCategoria(Eliminar Proveedor - Flujo Básico, http://localhost:8080/login, marcelo, 123456, Samsung, Proveedor ...) -->
+                  <span class="method-name">c_eliminarCategoria</span>
+                  <span class="parameters">(Eliminar Proveedor - Flujo Básico, http://localhost:8080/login, marcelo, 123456, Samsung, Proveedor eliminado con éxito, http://localhost:81/testlink/lib/api/xmlrpc/v1/xmlrpc.php, c2ba2f17a374eb08746d1a30bd837bf7, 14, 1, 17, 1, Build 01)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Error: chrome not reachable
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;LAPTOP-4QGIS7L0&apos;, ip: &apos;192.168.48.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\alvar\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54792}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: 981a677e20b2fc7a2ca67b2df6e5e734
+	at pe.com.test.system.testCase.MantenimientoProvider.c_eliminarCategoria(MantenimientoProvider.java:194)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MiLuzTestSuite-class-failed -->
+        </div> <!-- panel MiLuzTestSuite -->
+        <div panel-name="test-xml-MiLuzTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\STS\MiLuzTestJava\src\test\java\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;MiLuzTestSuite&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;MantenimientoProviderChrome&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;navegador&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;testlinkIdNavegador&quot; value=&quot;5&quot;/&gt;
+    &lt;parameter name=&quot;testlinkNombreNavegador&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;parameter name=&quot;remoto&quot; value=&quot;0&quot;/&gt;
+    &lt;parameter name=&quot;rutaArchivoExcel&quot; value=&quot;D:\SoftwareExperimentos\MantenimientoProveedor.xlsx&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;pe.com.test.system.testCase.MantenimientoProvider&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MantenimientoProviderChrome --&gt;
+&lt;/suite&gt; &lt;!-- MiLuzTestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-MiLuzTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for MiLuzTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">MantenimientoProviderChrome (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-MiLuzTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for MiLuzTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-MiLuzTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for MiLuzTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_MiLuzTestSuite');
+function tableData_MiLuzTestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'a_insertarCategoria')
+data.setCell(0, 2, 'pe.com.test.system.testCase.MantenimientoProvider')
+data.setCell(0, 3, 19653);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'a_insertarCategoria')
+data.setCell(1, 2, 'pe.com.test.system.testCase.MantenimientoProvider')
+data.setCell(1, 3, 6015);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'b_editarCategoria')
+data.setCell(2, 2, 'pe.com.test.system.testCase.MantenimientoProvider')
+data.setCell(2, 3, 6015);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'c_eliminarCategoria')
+data.setCell(3, 2, 'pe.com.test.system.testCase.MantenimientoProvider')
+data.setCell(3, 3, 6013);
+window.suiteTableData['MiLuzTestSuite']= { tableData: data, tableDiv: 'times-div-MiLuzTestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 37 seconds</span>
+              <div id="times-div-MiLuzTestSuite">
+              </div> <!-- times-div-MiLuzTestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-MiLuzTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for MiLuzTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-MiLuzTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-MiLuzTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">pe.com.test.system.testCase.MantenimientoProvider</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">antesDelTest(chrome, 0, 5, Chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">a_insertarCategoria(Registrar Proveedor - Flujo Básico, http://localhost:8080/login, marcelo, 123456, Samsung, 987654321...)</span>
+                <span class="method-start">3200 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">a_insertarCategoria(Registrar Proveedor - Flujo Alternativo, http://localhost:8080/login, marcelo, 123456, , 987654321, ...)</span>
+                <span class="method-start">22857 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">b_editarCategoria(Actualizar Proveedor - Flujo Básico, http://localhost:8080/login, marcelo, 123456, CocaCola, Proveed...)</span>
+                <span class="method-start">28905 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">c_eliminarCategoria(Eliminar Proveedor - Flujo Básico, http://localhost:8080/login, marcelo, 123456, Samsung, Proveedor ...)</span>
+                <span class="method-start">34951 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">despuesDelTest</span>
+                <span class="method-start">40966 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
