@@ -80,10 +80,10 @@ public class MantenimientoProvider {
 			this.iniciarSesionPage.cerrarSesion();
 			
 			
-			MiLuzTestlink.reportarCasoDePrueba(urlTestlink, keyTestlink, Integer.parseInt(idTestCaseInternoTestlink),
+			/*MiLuzTestlink.reportarCasoDePrueba(urlTestlink, keyTestlink, Integer.parseInt(idTestCaseInternoTestlink),
 					Integer.parseInt(idTestCaseExternoTestlink), Integer.parseInt(idTestPlanTestlink), true, 
 					Integer.parseInt(idBuildTestlink), nombreBuildTestlink, "Se ejecuto correctamente", 
-					this.idNavegadorTestlink, this.nombreNavegadorTestlink);
+					this.idNavegadorTestlink, this.nombreNavegadorTestlink);*/
 			
 		}
 		catch(AssertionError e) {
@@ -91,10 +91,10 @@ public class MantenimientoProvider {
 					providerPage.getWebDriver());
 			
 			
-			MiLuzTestlink.reportarCasoDePrueba(urlTestlink, keyTestlink, Integer.parseInt(idTestCaseInternoTestlink),
+		/*	MiLuzTestlink.reportarCasoDePrueba(urlTestlink, keyTestlink, Integer.parseInt(idTestCaseInternoTestlink),
 					Integer.parseInt(idTestCaseExternoTestlink), Integer.parseInt(idTestPlanTestlink), false, 
 					Integer.parseInt(idBuildTestlink), nombreBuildTestlink, "Error:"+e.getMessage(), 
-					this.idNavegadorTestlink, this.nombreNavegadorTestlink);
+					this.idNavegadorTestlink, this.nombreNavegadorTestlink);*/
 			
 			Assert.fail(e.getMessage());
 		}
@@ -128,21 +128,21 @@ public class MantenimientoProvider {
 			this.iniciarSesionPage.cerrarSesion();
 			
 			
-			MiLuzTestlink.reportarCasoDePrueba(urlTestlink, keyTestlink, Integer.parseInt(idTestCaseInternoTestlink),
+			/*MiLuzTestlink.reportarCasoDePrueba(urlTestlink, keyTestlink, Integer.parseInt(idTestCaseInternoTestlink),
 					Integer.parseInt(idTestCaseExternoTestlink), Integer.parseInt(idTestPlanTestlink), true, 
 					Integer.parseInt(idBuildTestlink), nombreBuildTestlink, "Se ejecuto correctamente", 
 					this.idNavegadorTestlink, this.nombreNavegadorTestlink);
-					
+					*/
 		}
 		catch(AssertionError e) {
 			Utilitario.caputarPantallarError(this.rutaCarpetaError, "Error: " + e.getMessage(),
 					providerPage.getWebDriver());
 			
 			
-			MiLuzTestlink.reportarCasoDePrueba(urlTestlink, keyTestlink, Integer.parseInt(idTestCaseInternoTestlink),
+			/*MiLuzTestlink.reportarCasoDePrueba(urlTestlink, keyTestlink, Integer.parseInt(idTestCaseInternoTestlink),
 					Integer.parseInt(idTestCaseExternoTestlink), Integer.parseInt(idTestPlanTestlink), false, 
 					Integer.parseInt(idBuildTestlink), nombreBuildTestlink, "Error:"+e.getMessage(), 
-					this.idNavegadorTestlink, this.nombreNavegadorTestlink);
+					this.idNavegadorTestlink, this.nombreNavegadorTestlink);*/
 					
 			
 			Assert.fail(e.getMessage());
@@ -174,10 +174,10 @@ public class MantenimientoProvider {
 			this.iniciarSesionPage.cerrarSesion();
 			
 			
-			MiLuzTestlink.reportarCasoDePrueba(urlTestlink, keyTestlink, Integer.parseInt(idTestCaseInternoTestlink),
+			/*MiLuzTestlink.reportarCasoDePrueba(urlTestlink, keyTestlink, Integer.parseInt(idTestCaseInternoTestlink),
 					Integer.parseInt(idTestCaseExternoTestlink), Integer.parseInt(idTestPlanTestlink), true, 
 					Integer.parseInt(idBuildTestlink), nombreBuildTestlink, "Se ejecuto correctamente", 
-					this.idNavegadorTestlink, this.nombreNavegadorTestlink);
+					this.idNavegadorTestlink, this.nombreNavegadorTestlink);*/
 					
 		}
 		catch(AssertionError e) {
@@ -185,10 +185,10 @@ public class MantenimientoProvider {
 					providerPage.getWebDriver());
 			
 			
-			MiLuzTestlink.reportarCasoDePrueba(urlTestlink, keyTestlink, Integer.parseInt(idTestCaseInternoTestlink),
+			/*MiLuzTestlink.reportarCasoDePrueba(urlTestlink, keyTestlink, Integer.parseInt(idTestCaseInternoTestlink),
 					Integer.parseInt(idTestCaseExternoTestlink), Integer.parseInt(idTestPlanTestlink), false, 
 					Integer.parseInt(idBuildTestlink), nombreBuildTestlink, "Error:"+e.getMessage(), 
-					this.idNavegadorTestlink, this.nombreNavegadorTestlink);
+					this.idNavegadorTestlink, this.nombreNavegadorTestlink);*/
 					
 			
 			Assert.fail(e.getMessage());
