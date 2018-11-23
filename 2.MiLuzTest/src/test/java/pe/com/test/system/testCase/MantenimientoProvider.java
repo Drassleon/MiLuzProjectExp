@@ -59,6 +59,8 @@ public class MantenimientoProvider {
 			String idTestCaseExternoTestlink, String idTestPlanTestlink, String idBuildTestlink,
 			String nombreBuildTestlink) {
 		try {
+			urlInicial="http://localhost:8080/MiLuz-0.0.1-SNAPSHOT/login";
+
 			this.iniciarSesionPage.ingresarPaginaIniciarSesion(urlInicial);
 			this.iniciarSesionPage.iniciarSesion(usuario, clave);
 			
@@ -108,6 +110,8 @@ public class MantenimientoProvider {
 			String idTestCaseExternoTestlink, String idTestPlanTestlink, String idBuildTestlink,
 			String nombreBuildTestlink) {
 		try {
+			urlInicial="http://localhost:8080/MiLuz-0.0.1-SNAPSHOT/login";
+
 			this.iniciarSesionPage.ingresarPaginaIniciarSesion(urlInicial);
 			this.iniciarSesionPage.iniciarSesion(usuario, clave);
 			
@@ -155,6 +159,7 @@ public class MantenimientoProvider {
 			String idTestCaseExternoTestlink, String idTestPlanTestlink, String idBuildTestlink,
 			String nombreBuildTestlink) {
 		try {
+			urlInicial="http://localhost:8080/MiLuz-0.0.1-SNAPSHOT/login";
 			this.iniciarSesionPage.ingresarPaginaIniciarSesion(urlInicial);
 			this.iniciarSesionPage.iniciarSesion(usuario, clave);
 			
