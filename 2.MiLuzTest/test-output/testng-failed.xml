@@ -6,12 +6,14 @@
     <parameter name="testlinkIdNavegador" value="1"/>
     <parameter name="testlinkNombreNavegador" value="Chrome"/>
     <parameter name="remoto" value="0"/>
-    <parameter name="rutaArchivoExcel" value="C:\Data\MantenimientoProveedor.xlsx"/>
+    <parameter name="rutaArchivoExcel" value="D:\SoftwareExperimentos\MantenimientoProveedor.xlsx"/>
     <classes>
       <class name="pe.com.test.system.testCase.MantenimientoProvider">
         <methods>
           <include name="despuesDelTest"/>
-          <include name="c_eliminarProveedor"/>
+          <include name="c_eliminarProveedor" invocation-numbers="0"/>
+          <include name="b_editarProveedor" invocation-numbers="0"/>
+          <include name="a_insertarProveedor" invocation-numbers="0 1"/>
           <include name="antesDelTest"/>
         </methods>
       </class> <!-- pe.com.test.system.testCase.MantenimientoProvider -->
